@@ -4,3 +4,11 @@ logs/*
 *.log
 .env
 *.pem
+
+# Backup files
+backups/*
+!backups/.gitkeep
+*.tar.gz
+
+# Restore test output
+restore-test/
